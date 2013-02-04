@@ -49,4 +49,8 @@ exports.libsbmlsim = new FFI.Library('libsbmlsim', {
     simulateSBMLModelf: [myResultPtr, [Model_tPtr, ref.types.double, ref.types.double, ref.types.int32, ref.types.int32, ref.types.int32, ref.types.int32, ref.types.double, ref.types.double, ref.types.double, ref.types.int32]],
     simulateSBMLFromString: [myResultPtr, [ref.types.CString, ref.types.double, ref.types.double, ref.types.int32, ref.types.int32, ref.types.int32, ref.types.int32]],
     simulateSBMLFromFile: [myResultPtr, [ref.types.CString, ref.types.double, ref.types.double, ref.types.int32, ref.types.int32, ref.types.int32, ref.types.int32]],
+    printf: [ref.types.int32, [ref.types.CString]],
+    print_result_list: [ref.types.void, [Model_t, voidPtr, voidPtr, voidPtr]],
+    print_result: [ref.types.void, [myResultPtr]],
+    print_result_to_file: [ref.types.void, [myResultPtr, ref.types.CString, ref.types.char]],
 });
