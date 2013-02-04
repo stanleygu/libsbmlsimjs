@@ -1,4 +1,4 @@
-# 'node-libsbmlsim'
+# `node-libsbmlsim`
 
 `node-libsbmlsim` uses [`ffi`](https://github.com/rbranson/node-ffi) to wrap
 around the libsbmlsim C API.
