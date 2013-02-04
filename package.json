@@ -2,7 +2,7 @@
   "name": "libsbml",
   "version": "0.0.1",
   "author": "Stanley Gu",
-  "description": "A wrapper around libsbml for nodejs",
+  "description": "A wrapper around libsbmlsim for nodejs",
   "dependencies": {
     "ref-struct": "0.0.5",
     "ref-array": "0.0.3",
