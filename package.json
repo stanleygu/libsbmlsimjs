@@ -1,8 +1,9 @@
 {
   "name": "libsbmlsimjs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Stanley Gu",
   "description": "A wrapper around libsbmlsim for nodejs",
+  "main": "libsbmlsim.js",
   "repository"    : {"type": "git", "url":
     "git://github.com/stanley-gu/libsbmlsimjs.git"},
   "dependencies": {
